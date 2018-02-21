@@ -1,0 +1,112 @@
+img, embed, object, video {
+  max-width: 100%;
+}
+
+main {
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header {
+  width: 100%;
+}
+
+.sectionLine {
+  color: inherit;
+  border-top: solid 3px;
+  border-radius: 10%;
+  max-width: 100%;
+  margin-right: 0;
+}
+
+.name, .skills {
+  text-align: right;
+}
+
+.blue, .green, .grey {
+  width: 20%;
+  height: 48px;
+}
+
+.themes {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: auto;
+  padding-right: auto;
+  display: block;
+}
+
+.blue {
+  background-color: #2fd8f0;
+  display: inline-block;
+  margin-right: 10%;
+  margin-left: 1em;
+}
+
+.grey {
+  background-color: #a8b4ad;
+  display: inline-block;
+  margin-right: 10%;
+}
+
+.green {
+  background-color: #4df092;
+  display: inline-block;
+  margin-right: 0;
+}
+
+.presentationPhoto img {
+  width: 100%;
+  margin-top:10px;
+}
+
+.linksHolder {
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.featuredWork img {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.footer {
+  height: 20px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.blue_theme {
+  color: #2fd8f0;
+}
+
+.green_theme {
+  color: #4df092;
+}
+
+.grey_theme {
+  color: #a8b4ad;
+}
+
+.workLink {
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo__container {
+  width: 20%;
+  display: inline-block;
+}
+
+.info__container {
+  width: 70%;
+  display: inline-block;
+}

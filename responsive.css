@@ -1,0 +1,101 @@
+@media screen and (min-width: 550px) {
+  .themes, .presentationPhoto, .animalTradingCard, .rockPaperScissors, .pixelArtMaker {
+    width: 45%;
+    display: inline-block;
+  }
+
+  .themes {
+    width: 20%;
+    order: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 23%;
+  }
+
+  .presentationPhoto {
+    width: 70%;
+    order: 1;
+  }
+
+  .blue, .grey, .green {
+    display: block;
+    margin-left: 0;
+    margin-top: 15px;
+    width: 80%;
+
+
+  }
+
+  .green {
+    margin-bottom: 5px;
+  }
+
+  .subtitle {
+    width: 100%;
+  }
+
+  .trim-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .featuredWork {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .header {
+    width: 70%;
+    display: block;
+    margin-right: 0px;
+    margin-left: auto;
+    order: 0;
+
+  }
+
+  .themes {
+    height: 30%;
+    order: 1;
+  }
+
+  .presentationPhoto {
+    width: 70%;
+    display: inline-block;
+    float: right;
+    margin-right: 0px;
+    margin-left: auto;
+    order: 2;
+  }
+
+  .featuredWork {
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+    order: 3;
+  }
+
+  .subtitle {
+    padding-left: 12em;
+  }
+
+  .animalTradingCard, .rockPaperScissors, .pixelArtMaker {
+    width: 23.5%;
+    float: right;
+  }
+
+  .featuredWork__div img {
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 970px) {
+  #main {
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

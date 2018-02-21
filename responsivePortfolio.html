@@ -1,0 +1,183 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ioana Bac</title>
+  <meta charset="utf-8">
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css">
+  <link href="styles.css" rel="stylesheet">
+  <link href="responsive.css" rel="stylesheet">
+</head>
+<body>
+  <div id='main' class='content'>
+    <header class='header'>
+      <div class='logo__container'>
+        <img id='logo' src='./images/logo.png'>
+      </div>
+      <div class='info__container'>
+        <h1 class='name'>IOANA BAC</h1>
+        <h4 class='skills'>FRONT-END DEVELOPER</h4>
+      </div>
+      <hr class='sectionLine'></hr>
+    </header>
+    <main>
+      <section class='themes'>
+        <div class='themes__div'>
+          <div class='linksHolder'>
+            <a id='blue' class='blue' href='#'><div class='blue'></div></a>
+            <a id='grey' class='grey' href='#'><div class='grey'></div></a>
+            <a id='green' class='green' href='#'><div class='green'></div></a>
+          </div>
+        </div>
+      </section>
+      <section class='presentationPhoto'>
+        <div class='presentationPhoto__div'>
+          <picture id='photo'>
+            <source media="(max-width: 450px)" srcset="./images/presentationImageSmall.png">
+            <source media="(max-width: 850px)" srcset="./images/presentationImageMedium.png">
+            <source media="(min-width: 851px)" srcset="./images/presentationImageLarge.png">
+            <img src="./images/presentationImageLarge.png" alt="Coding programmer">
+          </picture>
+        </div>
+      </section>
+      <section class='featuredWork'>
+        <div class='featuredWork__div'>
+          <h2 class='subtitle'>Featured Work</h2>
+          <div class='animalTradingCard'>
+            <picture>
+              <source media="(max-width: 450px)" srcset="./images/catSmall.png">
+              <source media="(max-width: 850px)" srcset="./images/catMedium.png">
+              <source media="(min-width: 851px)" srcset="./images/catLarge.png">
+              <img src="./images/catLarge.png" alt="Animal Tranding Card">
+            </picture>
+            <h4>Animal Tranding Card</h4>
+            <a class='workLink trim-text' href='https://github.com/bacioana/animalTradingCard' target='_blank'><p class='trim-text'>https://github.com/bacioana/animalTradingCard</p></a>
+          </div>
+          <div class='rockPaperScissors'>
+            <picture>
+              <source media="(max-width: 450px)" srcset="./images/rpsSmall.png">
+              <source media="(max-width: 850px)" srcset="./images/rpsMedium.png">
+              <source media="(min-width: 851px)" srcset="./images/rpsLarge.png">
+              <img src="./images/rpsLarge.png" alt="Rock Paper Scissors">
+            </picture>
+            <h4>Rock Paper Scissors</h4>
+            <a class='workLink trim-text' href='https://github.com/bacioana/Rock-paper-scissors' target='_blank'><p class='trim-text'>https://github.com/bacioana/Rock-paper-scissors</p></a>
+          </div>
+          <div class='pixelArtMaker'>
+            <picture>
+              <source media="(max-width: 450px)" srcset="./images/pixelSmall.png">
+              <source media="(max-width: 850px)" srcset="./images/pixelMedium.png">
+              <source media="(min-width: 851px)" srcset="./images/pixelLarge.png">
+              <img src="./images/pixelLarge.png" alt="Pixel Art Maker">
+            </picture>
+            <h4>Pixel Art Maker</h4>
+            <a class='workLink trim-text' href='https://github.com/bacioana/Pixel-Art-Maker' target='_blank'><p class='trim-text'>https://github.com/bacioana/Pixel-Art-Maker</p></a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class='footer'>
+      <span>Designed by Ioana Bac</span>
+    </footer>
+  </div>
+  <script>
+    let blue=document.querySelector('#blue');
+    let green=document.querySelector('#green');
+    let grey=document.querySelector('#grey');
+    let main=document.querySelector('#main');
+
+    blue.addEventListener('click', function(e) {
+      e.stopPropagation();
+      main.classList.remove('green_theme', 'grey_theme');
+      main.classList.add('blue_theme');
+    });
+    green.addEventListener('click', function(e) {
+      e.stopPropagation();
+      main.classList.remove('blue_theme', 'grey_theme');
+      main.classList.add('green_theme');
+    });
+    grey.addEventListener('click', function(e) {
+      e.stopPropagation();
+      main.classList.remove('blue_theme', 'green_theme');
+      main.classList.add('grey_theme');
+    });
+  </script>
+</body>
+</html>
+=======
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ioana Bac</title>
+  <meta charset="utf-8">
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css">
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+  <div class='content'>
+    <header class='header'>
+      <h1 class='name'>IOANA BAC</h1>
+      <h4 class='skills'>FRONT-END DEVELOPER</h4>
+      <hr class='sectionLine'></hr>
+    </header>
+    <main>
+      <section class='themes'>
+        <div class='themes__div'>
+          <div class='linksHolder'>
+            <a class='blue' href='#'><div class='blue'></div></a>
+            <a class='grey' href='#'><div class='grey'></div></a>
+            <a class='green' href='#'><div class='green'></div></a>
+          </div>
+        </div>
+      </section>
+      <section class='presentationPhoto'>
+        <div class='presentationPhoto__div'>
+          <picture id='photo'>
+            <source media="(max-width: 450px)" srcset="./images/presentationImageSmall.png">
+            <source media="(max-width: 850px)" srcset="./images/presentationImageMedium.png">
+            <source media="(min-width: 851px)" srcset="./images/presentationImageLarge.png">
+            <img src="./images/presentationImageLarge.png" alt="Coding programmer">
+          </picture>
+        </div>
+      </section>
+      <section class='featuredWork'>
+        <div class='featuredWork__div'>
+          <h2>Featured Work</h2>
+          <picture>
+            <source media="(max-width: 450px)" srcset="./images/catSmall.png">
+            <source media="(max-width: 850px)" srcset="./images/catMedium.png">
+            <source media="(min-width: 851px)" srcset="./images/catLarge.png">
+            <img src="./images/catLarge.png" alt="Animal Tranding Card">
+          </picture>
+          <h4>Animal Tranding Card</h4>
+          <a href='https://github.com/bacioana/animalTradingCard'>https://github.com/bacioana/animalTradingCard</a>
+          <picture>
+            <source media="(max-width: 450px)" srcset="./images/rpsSmall.png">
+            <source media="(max-width: 850px)" srcset="./images/rpsMedium.png">
+            <source media="(min-width: 851px)" srcset="./images/rpsLarge.png">
+            <img src="./images/rpsLarge.png" alt="Rock Paper Scissors">
+          </picture>
+          <h4>Rock Paper Scissors</h4>
+          <a href='https://github.com/bacioana/Rock-paper-scissors'>https://github.com/bacioana/Rock-paper-scissors</a>
+          <picture>
+            <source media="(max-width: 450px)" srcset="./images/pixelSmall.png">
+            <source media="(max-width: 850px)" srcset="./images/pixelMedium.png">
+            <source media="(min-width: 851px)" srcset="./images/pixelLarge.png">
+            <img src="./images/pixelLarge.png" alt="Pixel Art Maker">
+          </picture>
+          <h4>Pixel Art Maker</h4>
+          <a href='https://github.com/bacioana/Pixel-Art-Maker'>https://github.com/bacioana/Pixel-Art-Maker</a>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script>
+
+  </script>
+</body>
+</html>
+>>>>>>> 5325bfd758cd4d31985e53cb1303f8d1d6110129
