@@ -1,37 +1,41 @@
 @media screen and (min-width: 550px) {
-  .themes, .presentationPhoto, .animalTradingCard, .rockPaperScissors, .pixelArtMaker {
-    width: 45%;
-    display: inline-block;
+  .linksHolder {
+    flex-direction: column;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .blue, .grey, .green {
+    width: 40%;
+    margin:0 0 10px 0;
   }
 
   .themes {
-    width: 20%;
-    order: 0;
-    margin-top: auto;
-    margin-bottom: auto;
-    height: 23%;
+    width: 30%;
   }
 
   .presentationPhoto {
     width: 70%;
-    order: 1;
-  }
-
-  .blue, .grey, .green {
-    display: block;
-    margin-left: 0;
-    margin-top: 15px;
-    width: 80%;
-
-
-  }
-
-  .green {
-    margin-bottom: 5px;
   }
 
   .subtitle {
     width: 100%;
+  }
+
+  .featuredWork-div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .animalTradingCard, .rockPaperScissors, .pixelArtMaker {
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
   }
 
   .trim-text {
@@ -50,11 +54,9 @@
 @media screen and (min-width: 900px) {
   .header {
     width: 70%;
-    display: block;
     margin-right: 0px;
     margin-left: auto;
     order: 0;
-
   }
 
   .themes {
@@ -64,8 +66,6 @@
 
   .presentationPhoto {
     width: 70%;
-    display: inline-block;
-    float: right;
     margin-right: 0px;
     margin-left: auto;
     order: 2;
@@ -73,9 +73,11 @@
 
   .featuredWork {
     width: 100%;
-    display: block;
     margin-top: 10px;
     order: 3;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
   }
 
   .subtitle {
@@ -84,10 +86,11 @@
 
   .animalTradingCard, .rockPaperScissors, .pixelArtMaker {
     width: 23.5%;
-    float: right;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  .featuredWork__div img {
+  .featuredWork-div img {
     height: 200px;
   }
 }

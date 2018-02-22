@@ -2,24 +2,23 @@ img, embed, object, video {
   max-width: 100%;
 }
 
-main {
-  width: 100%;
-}
-
 .content {
   display: flex;
   flex-wrap: wrap;
 }
 
 .header {
+  display: flex;
+  flex-wrap: wrap;
   width: 100%;
+  align-items: center;
 }
 
 .sectionLine {
   color: inherit;
   border-top: solid 3px;
   border-radius: 10%;
-  max-width: 100%;
+  width: 100%;
   margin-right: 0;
 }
 
@@ -28,46 +27,39 @@ main {
 }
 
 .blue, .green, .grey {
-  width: 20%;
+  width: 58px;
   height: 48px;
 }
 
 .themes {
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
 }
 
 .blue {
   background-color: #2fd8f0;
-  display: inline-block;
-  margin-right: 10%;
-  margin-left: 1em;
 }
 
 .grey {
   background-color: #a8b4ad;
-  display: inline-block;
-  margin-right: 10%;
 }
 
 .green {
   background-color: #4df092;
-  display: inline-block;
-  margin-right: 0;
 }
 
 .presentationPhoto img {
   width: 100%;
-  margin-top:10px;
 }
 
 .linksHolder {
-  max-width: 70%;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 10px;
 }
+
 
 .featuredWork img {
   width: 100%;
@@ -99,12 +91,10 @@ main {
   color: inherit;
 }
 
-.logo__container {
+.logo-container {
   width: 20%;
-  display: inline-block;
 }
 
-.info__container {
+.info-container {
   width: 70%;
-  display: inline-block;
 }
